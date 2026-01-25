@@ -207,3 +207,17 @@ Flask deployment with UX focus
 Translating ML outputs into business insights
 
 ---
+
+# Flask Webpage (Dark-light mode)
+
+![Customer-Support-Sentiment-Analysis](PostiveSentiment.png)
+
+---
+
+![Customer-Support-Sentiment-Analysis](NegativeSentiment.png)
+
+---
+
+![Customer-Support-Sentiment-Analysis](NeutralSentiment.png)
+
+---
