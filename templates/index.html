@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Sentiment Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <!-- Dark mode toggle -->
+    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+    <h1> Customer Sentiment Analyzer</h1>
+    <p class="subtitle">
+        NLP-based sentiment analysis system 
+    </p>
+
+    <form method="POST">
+        <textarea name="text" placeholder="Enter customer support message..." required>{{ user_text }}</textarea>
+        <button type="submit">Analyze Sentiment</button>
+    </form>
+
+    {% if prediction %}
+        <div class="result {{ prediction }}">
+            <h2>Predicted Sentiment</h2>
+
+            {% if prediction == "Positive" %}
+                <div class="emoji bounce">😊</div>
+            {% elif prediction == "Neutral" %}
+                <div class="emoji fade">😐</div>
+            {% elif prediction == "Negative" %}
+                <div class="emoji shake">😞</div>
+            {% endif %}
+
+            <p class="sentiment-text">{{ prediction }}</p>
+        </div>
+    {% endif %}
+</div>
+
+<script>
+    function toggleTheme() {
+        document.body.classList.toggle("dark");
+
+        const toggleBtn = document.querySelector(".theme-toggle");
+        if (document.body.classList.contains("dark")) {
+            toggleBtn.textContent = "☀️";
+            localStorage.setItem("theme", "dark");
+        } else {
+            toggleBtn.textContent = "🌙";
+            localStorage.setItem("theme", "light");
+        }
+    }
+
+    window.onload = function () {
+        const savedTheme = localStorage.getItem("theme");
+        const toggleBtn = document.querySelector(".theme-toggle");
+
+        if (savedTheme === "dark") {
+            document.body.classList.add("dark");
+            toggleBtn.textContent = "☀️";
+        }
+    };
+</script>
+
+</body>
+</html>
