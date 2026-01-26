@@ -209,15 +209,17 @@ Translating ML outputs into business insights
 ---
 
 # Flask Webpage (Dark-light mode)
-
+## Positive Sentiment
 ![Customer-Support-Sentiment-Analysis](PositiveSentiment.png)
 
 ---
 
+## Negative Sentiment
 ![Customer-Support-Sentiment-Analysis](NegativeSentiment.png)
 
 ---
 
+## Neutral Sentiment
 ![Customer-Support-Sentiment-Analysis](NeutralSentiment.png)
 
 ---
