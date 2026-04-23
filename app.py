@@ -7,7 +7,7 @@ import pickle
 st.set_page_config(
     page_title="Customer Sentiment Analyzer",
     page_icon="😄 ",
-    layout="wide"
+    layout="centered"
 )
 
 # -------------------------------
@@ -87,7 +87,7 @@ textarea:focus {
 }
 
 .result-box {
-    margin-top: 6px;
+    margin-top: 3px;
     border-radius: 35px;
     text-align: center;
     border: 2px solid #F5F5F4;
