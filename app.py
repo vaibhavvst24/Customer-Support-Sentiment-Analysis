@@ -87,7 +87,7 @@ textarea:focus {
 }
 
 .result-box {
-    margin-top: 3px;
+    margin-top: 6px;
     border-radius: 35px;
     text-align: center;
     border: 2px solid #F5F5F4;
@@ -95,12 +95,12 @@ textarea:focus {
     max-width: 320px;
     margin-left: auto;
     margin-right: auto;
-    height: 240px
+    height: 230px
 }
 
 .positive {
-    background: #178236;
-    color: #ECFCCA;
+    background: #239B5;
+    color: #82E0AA;
 }
 
 .neutral {
@@ -109,8 +109,8 @@ textarea:focus {
 }
 
 .negative {
-    background: #B7950B;
-    color: #F4D03F;
+    background: #B03A2E;
+    color: #F1948A;
 }
 
 /* Emoji */
