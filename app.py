@@ -147,8 +147,6 @@ textarea:focus {
     from {opacity:0; transform:translateY(15px);}
     to {opacity:1; transform:translateY(0);}
 }
-</style>
-""", unsafe_allow_html=True)
 
 /* Mobile Responsive Design */
 @media (max-width: 768px) {
@@ -168,42 +166,23 @@ textarea:focus {
 
     .title {
         font-size: 26px;
-        line-height: 1.2;
     }
 
     .subtitle {
         font-size: 13px;
-        margin-bottom: 18px;
-    }
-
-    textarea {
-        font-size: 15px !important;
-        min-height: 110px !important;
-    }
-
-    .stButton > button {
-        font-size: 15px;
-        padding: 12px;
-        border-radius: 12px;
     }
 
     .result-box {
         max-width: 100%;
         width: 100%;
-        padding: 10px;
-        border-radius: 12px;
     }
 
     .emoji {
         font-size: 42px;
-        margin-bottom: 4px;
-    }
-
-    .float {
-        font-size: 24px;
-        opacity: 0.18;
     }
 }
+</style>
+""", unsafe_allow_html=True)
 
 # Floating Emojis Background
 st.markdown("""
