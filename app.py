@@ -68,7 +68,7 @@ textarea:focus {
 
 /* Button */
 .stButton > button {
-    width: 463%;
+    width: 100%;
     background: linear-gradient(110deg,#A6ACAF,#262626);
     color: white;
     border: none;
@@ -146,40 +146,6 @@ textarea:focus {
 @keyframes fadeIn {
     from {opacity:0; transform:translateY(15px);}
     to {opacity:1; transform:translateY(0);}
-}
-
-/* Mobile Responsive Design */
-@media (max-width: 768px) {
-
-    .block-container {
-        max-width: 100% !important;
-        padding-left: 12px !important;
-        padding-right: 12px !important;
-        padding-top: 0.5rem !important;
-    }
-
-    .main-box {
-        padding: 18px;
-        border-radius: 14px;
-        margin-top: 0;
-    }
-
-    .title {
-        font-size: 26px;
-    }
-
-    .subtitle {
-        font-size: 13px;
-    }
-
-    .result-box {
-        max-width: 100%;
-        width: 100%;
-    }
-
-    .emoji {
-        font-size: 42px;
-    }
 }
 </style>
 """, unsafe_allow_html=True)
