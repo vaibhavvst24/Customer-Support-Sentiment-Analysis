@@ -67,24 +67,24 @@ textarea:focus {
 }
 
 /* Button */
-.stButton {
-    display: flex;
-    justify-content: center;
-}
-
 .stButton > button {
-    width: 70%;
+    width: 250%;
     background: linear-gradient(110deg,#A6ACAF,#262626);
     color: white;
     border: none;
     padding: 14px;
     border-radius: 14px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
     transition: 0.3s ease;
     margin-top: 10px;
 }
 
+.stButton > button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(226, 232, 240,0.50);
+    color: white;
+}
 .result-box {
     margin-top: 6px;
     border-radius: 35px;
