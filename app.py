@@ -100,17 +100,17 @@ textarea:focus {
 
 .positive {
     background: #239B56;
-    color: #82E0AA;
+    color: #D0D3D4;
 }
 
 .neutral {
     background: #D4AC0D;
-    color: #FEF9C2;
+    color: #D0D3D4;
 }
 
 .negative {
     background: #B03A2E;
-    color: #FADBD8;
+    color: #D0D3D4;
 }
 
 /* Emoji */
