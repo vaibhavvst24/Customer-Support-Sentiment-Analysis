@@ -74,7 +74,7 @@ textarea:focus {
     border: none;
     padding: 14px;
     border-radius: 14px;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 600;
     transition: 0.3s ease;
     margin-top: 10px;
@@ -93,10 +93,10 @@ textarea:focus {
     text-align: center;
     border: 2px solid #F5F5F4;
     animation: fadeIn 0.10s ease;
-    max-width: 310px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    height: 238px
+    height: 240px
 }
 
 .positive {
