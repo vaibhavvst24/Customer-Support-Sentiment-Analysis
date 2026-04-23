@@ -6,7 +6,7 @@ import pickle
 # -------------------------------
 st.set_page_config(
     page_title="Customer Sentiment Analyzer",
-    page_icon="😊",
+    page_icon="😄",
     layout="centered"
 )
 
@@ -101,7 +101,7 @@ textarea:focus {
 
 .positive {
     background: #178236;
-    color: #178236;
+    color: #B9F8CF;
 }
 
 .neutral {
