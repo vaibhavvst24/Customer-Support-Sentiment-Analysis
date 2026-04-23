@@ -68,7 +68,7 @@ textarea:focus {
 
 /* Button */
 .stButton > button {
-    width: 100%;
+    width: 500%;
     background: linear-gradient(110deg,#A6ACAF,#262626);
     color: white;
     border: none;
@@ -101,17 +101,17 @@ textarea:focus {
 
 .positive {
     background: #178236;
-    color: #B9F8CF;
+    color: #ECFCCA;
 }
 
 .neutral {
     background: #D4AC0D;
-    color: #D4AC0D;
+    color: #FEF9C2;
 }
 
 .negative {
     background: #C11007;
-    color: #C11007;
+    color: #FFE2E2;
 }
 
 /* Emoji */
