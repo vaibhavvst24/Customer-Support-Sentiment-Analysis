@@ -67,8 +67,13 @@ textarea:focus {
 }
 
 /* Button */
+.stButton {
+    display: flex;
+    justify-content: center;
+}
+
 .stButton > button {
-    width: 100%;
+    width: 70%;
     background: linear-gradient(110deg,#A6ACAF,#262626);
     color: white;
     border: none;
@@ -78,12 +83,6 @@ textarea:focus {
     font-weight: 600;
     transition: 0.3s ease;
     margin-top: 10px;
-}
-
-.stButton > button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 15px 30px rgba(226, 232, 240,0.50);
-    color: white;
 }
 
 .result-box {
