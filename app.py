@@ -68,7 +68,7 @@ textarea:focus {
 
 /* Button */
 .stButton > button {
-    width: 250%;
+    width: 220%;
     background: linear-gradient(110deg,#A6ACAF,#262626);
     color: white;
     border: none;
