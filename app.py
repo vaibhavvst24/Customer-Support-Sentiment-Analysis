@@ -88,14 +88,14 @@ textarea:focus {
 
 .result-box {
     margin-top: 6px;
-    padding: 6px 6px;
+    padding: 6px;
     border-radius: 30px;
     text-align: center;
     border: 2px solid #F5F5F4;
     animation: fadeIn 0.10s ease;
     max-width: 320px;
     margin-left: auto;
-    margin-right: 2px;
+    margin-right: auto;
     height: 240px
 }
 
