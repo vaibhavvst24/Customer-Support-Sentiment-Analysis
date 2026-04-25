@@ -1,4 +1,8 @@
 # 📊 Customer Support Sentiment Analysis
+
+# 🚀 Customer Segmentation App
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live_App-red)](https://customer-support-sentiment-analysis-bcra3nyl8v6pyq75j3lhhh.streamlit.app/)
+
 ## 🔍 Project Overview
 
 This project focuses on analyzing customer support messages to automatically determine their sentiment — Positive, Neutral, or Negative.
