@@ -5,8 +5,8 @@ import pickle
 # Page Config
 # -------------------------------
 st.set_page_config(
-    page_title="Customer Sentiment Analyzer",
-    page_icon="🧑🏻",
+    page_title="Sentiment Analysis & Review Intelligence System",
+    page_icon="🤔",
     layout="centered"
 )
 
