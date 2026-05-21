@@ -175,7 +175,7 @@ footer {visibility: hidden;}
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="title">Sentiment Analysis System</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">Review Sentiment Analysis System</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">NLP-based sentiment analysis system</div>', unsafe_allow_html=True)
 
 user_text = st.text_area(
